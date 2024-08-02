@@ -1,0 +1,32 @@
+<!-- <form style="text-align: center;" #loginForm="ngForm" (ngSubmit) = "loginDetails(loginForm.value)">
+  <input type="text" placeholder="name" id="name" name="names" ngModel /><br>
+  <input type="password" placeholder="password" id="pwd" name="pwd" ngModel /><br>
+  <input type="submit" value="login" />
+</form> -->
+
+<!-- onchange hook <input type="text" [(ngModel)] = "wish" />
+
+<app-home [childData] = "wish"></app-home> -->
+
+<!-- <app-home></app-home> -->
+
+<table border="1px solid">
+  <thead>
+    <th>Empo</th>
+    <th>Empname</th>
+    <th>salary</th>
+    <th>gender</th>
+    <th>gender</th>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let emp of employees">
+      <td>{{emp.emp}}</td>
+      <td>{{emp.ename}}</td>
+      <td>{{emp.salary}}</td>
+      <td>{{emp.gender}}</td>
+      <td>{{emp.gender | gender}}</td>
+    </tr>
+  </tbody>
+
+</table>

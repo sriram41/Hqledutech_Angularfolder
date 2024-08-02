@@ -1,0 +1,10 @@
+.total-content {
+    justify-content: center;
+    gap: 31px;
+    margin-top: 20px;
+}
+
+.buttonsblock {
+    gap: 10px;
+    display: flex;
+}

@@ -1,0 +1,158 @@
+<!-- sreeram<br/>
+today date is {{date}}<br/>
+hero: {{total}}
+lists: {{listbatch | json}}
+
+<div *ngIf = "true">It is correct</div>
+<div *ngIf = "false">It is not correct</div>
+<div *ngIf = "toggle">second is correct</div>
+<div *ngIf = "10%2==0">It is even number</div>
+
+<div *ngIf = "negative; else other">It is doubt</div>
+<ng-template #other>please login</ng-template><br/>
+
+<div *ngIf = "negatives then firstBlock; else secondBlock"></div>
+<ng-template #firstBlock>your login !!!</ng-template>
+<ng-template #secondBlock>your are not login try again later</ng-template>
+
+<div [ngSwitch] = "weekday">
+    <div *ngSwitchCase="1">sunday</div>
+    <div *ngSwitchCase = "2">monday</div>
+    <div *ngSwitchCase = "3">tuesday</div>
+    <div *ngSwitchCase = "4">wednesday</div>
+    <div *ngSwitchCase = "5">Thrusday</div>
+    <div *ngSwitchCase = "6">friday</div>
+    <div *ngSwitchCase = "7">saturday</div>
+    <div *ngSwitchDefault>none of the above</div>
+</div>
+
+
+
+not correct code[td, th {
+    border: 1px solid #ccc; /* 1px solid border with light gray color */
+    padding: 8px; /* Optional: Adjust padding as needed */
+    text-align: left; /* Optional: Align text within cells */
+  }
+  
+  /* Optional: Style table header differently */
+  th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold; /* Optional: Make headers bold */
+  } 
+] 
+<table style="border:1px solid; border-collapse:collapse;">
+    <tbody>
+        <tr>
+            <th style="border: 1px solid #000; padding: 8px; text-align: left; ">Hero</th>
+            <th style="border: 1px solid #000; padding: 8px; text-align: left; ">Movie</th>
+            <th style="border: 1px solid #000; padding: 8px; text-align: left; ">Wood</th>
+        </tr>
+
+        <tr *ngFor="let student of moviesList">
+            <td style="border: 1px solid #000; padding: 8px; text-align: left; ">{{student.hero}}</td>
+            <td style="border: 1px solid #000; padding: 8px; text-align: left;">{{student.movie}}</td>
+            <td style="border: 1px solid #000; padding: 8px; text-align: left;">{{student.wood}}</td>
+            
+        </tr>
+    </tbody>
+</table>
+
+<a href="{{website.url}}">links</a><br>
+
+
+<h1>property binding</h1>
+
+<a [href]= "website.url">links</a><br>
+
+<a bind-href= "website.url">links</a><br>
+
+<a [textContent] = "website.name"></a><br>
+
+<a bind-textContent = "website.name"></a><br>
+
+<br><br>
+<h2>class binding </h2><br>
+
+<p class="textColor">total value</p><br>
+
+
+<p [class]="color">total value1</p><br>
+
+<p bind-class="group">total value1</p><br>
+<p [class]="group">total value1</p><br>
+<p [ngClass]="group">total value1</p><br>
+
+<h2>style binding</h2>
+
+not correct code {<p [style]="color">total value1111111111111</p><br> 
+
+<p [ngStyle]="text-align:center">last value</p> }
+
+<h2>event binding</h2>
+
+<input type="text" placeholder="name" #data />
+
+<button (click) ="demo(data.value)">submit</button>
+ -->
+
+
+<!-- <input type="text" [(ngModel)] = latestname ><br>
+
+
+{{latestname}}<br>
+
+
+{{latestname | uppercase}}<br>
+{{latestname | lowercase}}<br>
+{{latestname | slice : 0}}<br>
+{{latestname | slice : 0:3}}<br>
+{{latestname | slice : 2:6}}<br>
+{{price | number : '3.2-3'}}<br>
+{{price | currency : 'INR'}}<br>
+{{today}} -->
+
+
+<!-- <table>
+    <thead>
+<th>hero</th>
+<th>movie</th>
+<th>wood</th>
+<th>gender</th>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let item of moviesList">
+            <td>{{item.hero}}</td>
+            <td>{{item.movie}}</td>
+            <td>{{item.wood}}</td>
+            <td>{{item.gender}}</td>
+
+        </tr>
+    </tbody>
+</table> -->
+<!-- 
+{{org}}
+
+<h3>{{lists | json}}</h3>
+<app-child1></app-child1> -->
+
+<!-- {{allposts | json}} -->
+
+<!-- <app-child2 [n]="name"></app-child2>
+
+<app-child2 (p)="parentMethod()"></app-child2>
+
+<a routerLink="child1">child1</a>
+<a routerLink = "child2">child2</a>
+
+<router-outlet></router-outlet> -->
+
+
+
+<!-- <app-child4></app-child4> -->
+ <!-- <router-outlet></router-outlet> -->
+
+ <form #loginForm = "ngForm" (ngSubmit)="loginDetails(loginForm.value)">
+    <input type="text"  name="usename" placeholder="usename" ngModel />
+    <input type="password" name="pwd" placeholder="password" ngModel />
+    <input type="submit" value="login" />
+ </form>

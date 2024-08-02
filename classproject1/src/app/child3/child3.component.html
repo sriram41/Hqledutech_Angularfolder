@@ -1,0 +1,27 @@
+<form #logForm="ngForm" style="text-align: center;">
+<label>Enter your name</label>
+<input type="text" placeholder="firstname" id="firstname" name="firstname"
+ngModel #firstname="ngModel" required pattern="^[a-zA-Z]+$" />
+
+<small *ngIf="(firstname.touched || firstname.dirty) && firstname.invalid">
+    <small *ngIf="firstname.errors?.['required']">first is required</small>
+    <small *ngIf="firstname.errors?.['pattern']">please enter character data</small>
+</small>
+    
+<br><br>
+<label>Enter mobile number</label>
+<input type="text" placeholder="mobile number" id="mobile" name="mobile"
+ngModel #mobile = "ngModel" required pattern="^\d{10}$" />
+<small *ngIf="(mobile.touched || mobile.dirty) && mobile.invalid">
+<small *ngIf="mobile.errors?.['required']">Mobile number is required</small>
+<small *ngIf = "mobile.errors?.['pattern']">please enter 10 digit mobile number</small>
+</small>
+<br><br>
+<label>select gender</label>
+<input type="radio" value="male" name="gender" ngModel #gender="ngModel" /> male
+<input type="radio" value="female" name="gender" ngModel #gender="ngModel" /> female
+<small *ngIf="gender.touched && gender.invalid">please select gender</small>
+
+</form> 
+
+

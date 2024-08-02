@@ -1,0 +1,146 @@
+{
+    "categories" : [
+        {"id":1, "categoryname":"iphone"},
+        {"id":2, "categoryname":"oneplus"},
+        {"id":3, "categoryname":"realme"},
+        {"id":4, "categoryname":"redmi"},
+        {"id":5, "categoryname":"samsung"},
+        {"id":6, "categoryname":"vivo"}
+    ],
+
+    "products": [
+        {"id":1, "color":"grey", "cost":20000, "vendor":"Iphone", "battery":5000, "avaliable":true,
+        "description": "This is new product from Iphone",
+        "image":"http://localhost:4200/assets/images/iphone01.jpg", "catid":1},
+        {"id":2, "color":"blue", "cost":20000, "vendor":"Iphone", "battery":5000, "avaliable":true,
+        "description": "This is new product from Iphone", 
+        "image":"http://localhost:4200/assets/images/iphone02.jpg", "catid":1},
+        {"id":3, "color":"white", "cost":20000, "vendor":"Iphone", "battery":5000, "avaliable":true,
+        "description": "This is new product from Iphone", 
+        "image":"http://localhost:4200/assets/images/iphone03.jpg", "catid":1},
+        {"id":4, "color":"semiwhite", "cost":20000, "vendor":"Iphone", "battery":5000, "avaliable":true,
+        "description": "This is new product from Iphone", 
+        "image":"http://localhost:4200/assets/images/iphone04.jpg", "catid":1},
+        {"id":5, "color":"black", "cost":20000, "vendor":"Iphone", "battery":5000, "avaliable":true,
+        "description": "This is new product from Iphone", 
+        "image":"http://localhost:4200/assets/images/iphone05.jpg", "catid":1},
+        {"id":6, "color":"skyblue", "cost":20000, "vendor":"Iphone", "battery":5000, "avaliable":true,
+        "description": "This is new product from Iphone", 
+        "image":"http://localhost:4200/assets/images/iphone06.jpg", "catid":1},
+
+
+        {"id":7, "color":"grey", "cost":19000, "vendor":"Oneplus", "battery":5000, "avaliable":true,
+        "description": "This is new product from Oneplus",
+        "image":"http://localhost:4200/assets/images/oneplus01.jpg", "catid":2},
+        {"id":8, "color":"green", "cost":19000, "vendor":"Oneplus", "battery":5000, "avaliable":true,
+        "description": "This is new product from Oneplus", 
+        "image":"http://localhost:4200/assets/images/oneplus02.jpg", "catid":2},
+        {"id":9, "color":"lightgrey", "cost":19000, "vendor":"Oneplus", "battery":5000, "avaliable":true,
+        "description": "This is new product from Oneplus", 
+        "image":"http://localhost:4200/assets/images/oneplus03.jpg", "catid":2},
+        {"id":10, "color":"skyblue", "cost":19000, "vendor":"Oneplus", "battery":5000, "avaliable":true,
+        "description": "This is new product from Oneplus", 
+        "image":"http://localhost:4200/assets/images/oneplus04.jpg", "catid":2},
+        {"id":11, "color":"darkgrey", "cost":19000, "vendor":"Oneplus", "battery":5000, "avaliable":true,
+        "description": "This is new product from Oneplus", 
+        "image":"http://localhost:4200/assets/images/oneplus05.jpg", "catid":2},
+        {"id":12, "color":"lightgreen", "cost":19000, "vendor":"Oneplus", "battery":5000, "avaliable":true,
+        "description": "This is new product from Oneplus", 
+        "image":"http://localhost:4200/assets/images/oneplus06.jpg", "catid":2},
+
+   
+
+
+    {"id":13, "color":"blue", "cost":18000, "vendor":"Realme", "battery":5000, "avaliable":true,
+        "description": "This is new product from Realme",
+        "image":"http://localhost:4200/assets/images/realme01.jpg", "catid":3},
+        {"id":14, "color":"lightblue", "cost":18000, "vendor":"Realme", "battery":5000, "avaliable":true,
+        "description": "This is new product from Realme", 
+        "image":"http://localhost:4200/assets/images/realme02.jpg", "catid":3},
+        {"id":15, "color":"lightgrey", "cost":18000, "vendor":"Realme", "battery":5000, "avaliable":true,
+        "description": "This is new product from Realme", 
+        "image":"http://localhost:4200/assets/images/realme03.jpg", "catid":3},
+        {"id":16, "color":"lightgreen", "cost":18000, "vendor":"Realme", "battery":5000, "avaliable":true,
+        "description": "This is new product from Realme", 
+        "image":"http://localhost:4200/assets/images/realme04.jpg", "catid":3},
+        {"id":17, "color":"skyblue", "cost":18000, "vendor":"Realme", "battery":5000, "avaliable":true,
+        "description": "This is new product from Realme", 
+        "image":"http://localhost:4200/assets/images/realme05.jpg", "catid":3},
+        {"id":18, "color":"black", "cost":18000, "vendor":"Realme", "battery":5000, "avaliable":true,
+        "description": "This is new product from Realme", 
+        "image":"http://localhost:4200/assets/images/realme06.jpg", "catid":3},
+
+
+
+        {"id":19, "color":"darkgreen", "cost":17000, "vendor":"Redmi", "battery":5000, "avaliable":true,
+        "description": "This is new product from Redmi",
+        "image":"http://localhost:4200/assets/images/redmi01.jpg", "catid":4},
+        {"id":20, "color":"skyblue", "cost":17000, "vendor":"Redmi", "battery":5000, "avaliable":true,
+        "description": "This is new product from Redmi", 
+        "image":"http://localhost:4200/assets/images/redmi02.jpg", "catid":4},
+        {"id":21, "color":"lightpink", "cost":17000, "vendor":"Redmi", "battery":5000, "avaliable":true,
+        "description": "This is new product from Redmi", 
+        "image":"http://localhost:4200/assets/images/redmi03.jpg", "catid":4},
+        {"id":22, "color":"darkblue", "cost":17000, "vendor":"Redmi", "battery":5000, "avaliable":true,
+        "description": "This is new product from Redmi", 
+        "image":"http://localhost:4200/assets/images/redmi04.jpg", "catid":4},
+        {"id":23, "color":"skyblue", "cost":17000, "vendor":"Redmi", "battery":5000, "avaliable":true,
+        "description": "This is new product from Redmi", 
+        "image":"http://localhost:4200/assets/images/redmi05.jpg", "catid":4},
+        {"id":24, "color":"lightblue", "cost":17000, "vendor":"Redmi", "battery":5000, "avaliable":true,
+        "description": "This is new product from Redmi", 
+        "image":"http://localhost:4200/assets/images/redmi06.jpg", "catid":4},
+
+
+
+        
+        {"id":25, "color":"blue", "cost":16000, "vendor":"Samsung", "battery":5000, "avaliable":true,
+        "description": "This is new product from Samsung",
+        "image":"http://localhost:4200/assets/images/sam01.jpg", "catid":5},
+        {"id":26, "color":"grey", "cost":16000, "vendor":"Samsung", "battery":5000, "avaliable":true,
+        "description": "This is new product from Samsung", 
+        "image":"http://localhost:4200/assets/images/sam02.jpg", "catid":5},
+        {"id":27, "color":"darkpink", "cost":16000, "vendor":"Samsung", "battery":5000, "avaliable":true,
+        "description": "This is new product from Samsung", 
+        "image":"http://localhost:4200/assets/images/sam03.jpg", "catid":5},
+        {"id":28, "color":"white", "cost":16000, "vendor":"Samsung", "battery":5000, "avaliable":true,
+        "description": "This is new product from Samsung", 
+        "image":"http://localhost:4200/assets/images/sam04.jpg", "catid":5},
+        {"id":29, "color":"lightgrey", "cost":16000, "vendor":"Samsung", "battery":5000, "avaliable":true,
+        "description": "This is new product from Samsung", 
+        "image":"http://localhost:4200/assets/images/sam05.jpg", "catid":5},
+        {"id":30, "color":"semiwhite", "cost":16000, "vendor":"Samsung", "battery":5000, "avaliable":true,
+        "description": "This is new product from Samsung", 
+        "image":"http://localhost:4200/assets/images/sam06.jpg", "catid":5},
+
+
+        {"id":31, "color":"gold", "cost":15000, "vendor":"Vivo", "battery":5000, "avaliable":true,
+        "description": "This is new product from Vivo",
+        "image":"http://localhost:4200/assets/images/vivo01.jpg", "catid":6},
+        {"id":32, "color":"grey", "cost":15000, "vendor":"Vivo", "battery":5000, "avaliable":true,
+        "description": "This is new product from Vivo", 
+        "image":"http://localhost:4200/assets/images/vivo02.jpg", "catid":6},
+        {"id":33, "color":"darkblue", "cost":15000, "vendor":"Vivo", "battery":5000, "avaliable":true,
+        "description": "This is new product from Vivo", 
+        "image":"http://localhost:4200/assets/images/vivo03.jpg", "catid":6},
+        {"id":34, "color":"darkgreen", "cost":15000, "vendor":"Vivo", "battery":5000, "avaliable":true,
+        "description": "This is new product from Vivo", 
+        "image":"http://localhost:4200/assets/images/vivo04.jpg", "catid":6},
+        {"id":35, "color":"darkpink", "cost":15000, "vendor":"Vivo", "battery":5000, "avaliable":true,
+        "description": "This is new product from Vivo", 
+        "image":"http://localhost:4200/assets/images/vivo05.jpg", "catid":6},
+        {"id":36, "color":"darkhash", "cost":15000, "vendor":"Vivo", "battery":5000, "avaliable":true,
+        "description": "This is new product from Vivo", 
+        "image":"http://localhost:4200/assets/images/vivo06.jpg", "catid":6}
+
+
+
+
+
+
+    ]
+
+
+
+
+}
